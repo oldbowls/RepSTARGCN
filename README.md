@@ -38,4 +38,7 @@ In terminal attack-defence scenarios, aerial target intention can be accurately 
 
 # Acknowledgement
 
-This repository is built upon SGN.
+This repository is built upon SGN and RepVGG.
+
+## :envelope: Contact
+If you have any questions about our code, please feel free to contact dlh@mail.nwpu.edu.cn.
