@@ -3,7 +3,7 @@ This repo is the official implementation for "An Attitude-centric and Cross-band
 
 ## :mega: News
 
-- [2024.11.28]: We open source the code of RepSTARGCN!
+- [2025.11.28]: We open source the code of RepSTARGCN!
 
 ##  :sparkles: Overview
 
