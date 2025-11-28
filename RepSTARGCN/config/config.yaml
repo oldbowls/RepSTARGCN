@@ -1,0 +1,58 @@
+data: 'intention'
+data_param:
+  train_data_param:
+    data_path: H:\zhang_data\train_npy
+    label_path:
+    dir_flag: True
+
+  val_data_param:
+    data_path: H:\zhang_data\test_npy
+    label_path:
+    dir_flag: True
+
+model: 'repstargcn'
+model_param:
+  only_tcn: False
+  seg: 20
+  num_joint: 8
+  dim: 256
+  num_joint_ori: 8
+  adaptive_transform: True
+  gcn_type: 'big'
+
+pipeline: 'classify'
+pipeline_param:
+
+loss: 'label_smooth_CE'
+loss_param:
+  label_smoothing_num: 0.1
+
+lr_scheduler: 'reduce_by_epoch'
+lr_scheduler_param:
+  step: [60, 90, 110]
+  lr_decay_ratio: 0.1
+  warm_up_epoch: 0
+freeze_keys: [['transform', 30]]
+lr_multi_keys: []
+
+optimizer: 'adam'
+optimizer_param:
+  lr: 0.001
+  weight_decay: 0.0001
+
+seed: 1
+eval: False
+class_num: 5
+batch_size: 64
+worker: 0
+pin_memory: False
+max_epoch: 120
+num_epoch_per_save: 1
+model_saved_name: 'H:\code\paper6\intention_dir\exp2ARGC'
+last_model:
+pre_trained_model:
+ignore_weights: []
+val_first: False
+device_id: [0]
+cuda_visible_device: '0'
+debug: False
