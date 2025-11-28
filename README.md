@@ -24,7 +24,7 @@ In terminal attack-defence scenarios, aerial target intention can be accurately 
 
 ## Train
 
-- Change the config file depending on what you want. (The configuration file is located in config/UCI.yaml.)
+- Change the config file depending on what you want. (The configuration file is located in config/config.yaml.)
 
 ```python train.py -config config/config.yaml ```
 
