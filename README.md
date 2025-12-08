@@ -2,7 +2,7 @@
 This repo is the official implementation for "An Attitude-centric and Cross-band Infrared Framework for Aerial Target Intention Recognition"
 
 ## :mega: News
-- [2025.12.08]: We  will open source the code of SLPHM before 2025.12.09!
+- [2025.12.08]: We open source the code of SLPHM!
 - [2025.11.28]: We open source the code of RepSTARGCN!
 
 ##  :sparkles: Overview
